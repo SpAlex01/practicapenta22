@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Democ from "./ClassComp2";
 import reportWebVitals from './reportWebVitals';
-import Welcome from './ClassComp1';
+import Functionalcomp from './funcomp1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Democ  />
+    <Functionalcomp  />
   </React.StrictMode>
 );
 
