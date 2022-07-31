@@ -1,8 +1,8 @@
 import React, { useState } from "react"
+import Proprietate from "./prop1"
 
 
-
-const Functionalcomp=()=>{
+const Functionalcomp=(prop)=>{
     const [color,setColor]=useState("white")
     const handleClick1=()=>{
 
@@ -22,6 +22,7 @@ const Functionalcomp=()=>{
         <button onClick={handleClick1}>Click here</button>
         <button onClick={handleClick2}>Click here</button>
         {<p>{color}</p>}
+        {<p>{prop.textProp}</p>}
         </div>
     )
 
